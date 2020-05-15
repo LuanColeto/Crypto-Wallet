@@ -13,6 +13,8 @@ namespace :dev do
 
   end
 
+  private
+
   def new_spin(start_message, end_message = "Concluído")
     spinner = TTY::Spinner.new("[:spinner] #{start_message}")
     spinner.auto_spin
