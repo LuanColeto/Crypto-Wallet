@@ -6,14 +6,13 @@ Rails.application.configure do
   # since you don't have to restart the web server when you make code changes.
   config.cache_classes = false
 
-  config.hosts << "3000-aa07d36a-9032-44b8-9668-54fb308d85d8.ws-us02.gitpod.io"
   # Do not eager load code on boot.
   config.eager_load = false
 
   # Show full error reports.
   config.consider_all_requests_local = true
 
-  config.hosts << "3000-fe2c1bad-aae2-4c9f-bfe9-1d3dd8cc33a7.ws-us02.gitpod.io"
+config.hosts << "3000-ceb06726-4458-4bc4-ad72-4c7416fb7e7f.ws-us02.gitpod.io"
 
   # Enable/disable caching. By default caching is disabled.
   # Run rails dev:cache to toggle caching.
