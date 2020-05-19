@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'test/index'
   resources :mining_types
   resources :coins
 

@@ -2,6 +2,6 @@
 
 <%= render 'form', coin: @coin %>
 
-<%= link_to 'Show', @coin %> |
-<%= link_to 'Back', coins_path %> |
-<%= link_to 'Delete', @coin, method: :delete, data: { confirm: 'Are you sure?' } %>
+<%= link_to I18n.t('links.show'), @coin %> |
+<%= link_to I18n.t('links.edit'), coins_path %> |
+<%= link_to I18n.t('links.delete'), @coin, method: :delete, data: { confirm: I18n.t('links.confirm') } %>
