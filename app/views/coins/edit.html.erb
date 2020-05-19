@@ -2,6 +2,6 @@
 
 <%= render 'form', coin: @coin %>
 
-<%= link_to 'Mostrar', @coin %> |
-<%= link_to 'Voltar', coins_path %> |
-<%= link_to 'Deletar', @coin, method: :delete, data: { confirm: 'Você tem certeza?' } %>
+<%= link_to 'Show', @coin %> |
+<%= link_to 'Back', coins_path %> |
+<%= link_to 'Delete', @coin, method: :delete, data: { confirm: 'Are you sure?' } %>
