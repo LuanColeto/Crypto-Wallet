@@ -1,6 +1,6 @@
 body {
-  background-color: #fff;
-  color: #333;
+  background-color: <%= Rails.env.development? ? 'yellow' : 'red' %>;
+  color: #000000;
   margin: 33px; }
 
 body, p, ol, ul, td {

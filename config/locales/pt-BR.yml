@@ -12,7 +12,7 @@ pt-BR:
 #    new_coin: "Nova Moeda"
 #    description: "Nome"
 #    acronym: "Sigla"
-#    image: "Imagem"
+#    images: "Imagem"
 #  mining_types:
 #    table_title: "Tipos de mineração"
 #    new_mining_type: "Novo Tipo de Mineração"
