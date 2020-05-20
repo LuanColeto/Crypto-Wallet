@@ -7,7 +7,7 @@ module ApplicationHelper
             "Desenvolvimento"
         end
     end
-    def locale_set(locale)
+    def locale_set
         I18n.locale == :en ? "Estados Unidos" : "Brasil"
     end
 end

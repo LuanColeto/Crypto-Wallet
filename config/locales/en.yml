@@ -1,22 +1,22 @@
 en:
-  hello: "Hello world"
+  actual_locale: "English"
   links:
     edit: "Edit"
     show: "Show"
     delete: "Delete"
     confirm: "Are you sure?"
     back: "Back"
-  coins:
-    table_title: "Coins"
-    new_coin: "New Coin"
-    description: "Description"
-    acronym: "Acronym"
-    image: "Image"
-  mining_types:
-    table_title: "Mining Types"
-    new_mining_type: "New Mining Type"
-    description: "Description"
-    acronym: "Acronym"
+#  coins:
+#    table_title: "Coins"
+#    new_coin: "New Coin"
+#    description: "Description"
+#    acronym: "Acronym"
+#    image: "Image"
+#  mining_types:
+#    table_title: "Mining Types"
+#    new_mining_type: "New Mining Type"
+#    description: "Description"
+#    acronym: "Acronym"
 
 
 
