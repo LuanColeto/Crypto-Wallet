@@ -8,7 +8,7 @@
 // require("@rails/activestorage").start()
 // require("channels")
 
-<% msg = Time.now < 12 ? "Bom dia" : "Olá" %>
+<% msg = Time.now.hour < 12 ? "Bom dia" : "Olá" %>
 alert("<%= msg %>")
 
 
