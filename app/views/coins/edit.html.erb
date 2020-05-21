@@ -1,0 +1,7 @@
+<h1>Editing Coin</h1>
+
+<%= render 'form', coin: @coin %>
+
+<%= link_to I18n.t('links.show'), @coin %> |
+<%= link_to I18n.t('links.edit'), coins_path %> |
+<%= link_to I18n.t('links.delete'), @coin, method: :delete, data: { confirm: I18n.t('links.confirm') } %>

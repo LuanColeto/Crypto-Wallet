@@ -1,4 +1,22 @@
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/LuanColeto/Crypto-Wallet) 
-
 # Crypto-Wallet
 A simple CRUD to manage your money. Built with RoR
+=======
+# README
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+vvs
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
