@@ -10,7 +10,7 @@
  require ('jquery')
  require('notify')
 
-<% msg = Time.now.hour < 12 ? "Bom dia" : "Olá" %>
+<% msg = Time.now < 12 ? "Bom dia" : "Olá" %>
 alert("<%= msg %>")
 
 
