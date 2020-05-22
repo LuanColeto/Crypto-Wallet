@@ -7,13 +7,11 @@
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
-
   </head>
 
   <body>
   <p><%= link_to 'Português', root_path(locale: 'pt-BR') %></p>
   <p><%= link_to 'English', root_path(locale: :en) %></p>
-  <%= params[:controller] %>
 
   <%= yield %>
 

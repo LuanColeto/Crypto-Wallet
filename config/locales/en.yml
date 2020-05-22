@@ -11,7 +11,7 @@ en:
 #    new_coin: "New Coin"
 #    description: "Description"
 #    acronym: "Acronym"
-#    images: "Image"
+#    image: "Image"
 #  mining_types:
 #    table_title: "Mining Types"
 #    new_mining_type: "New Mining Type"

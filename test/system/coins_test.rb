@@ -16,7 +16,7 @@ class CoinsTest < ApplicationSystemTestCase
 
     fill_in "Acronym", with: @coin.acronym
     fill_in "Description", with: @coin.description
-    fill_in "Url images", with: @coin.url_image
+    fill_in "Url image", with: @coin.url_image
     click_on "Create Coin"
 
     assert_text "Coin was successfully created"
@@ -29,7 +29,7 @@ class CoinsTest < ApplicationSystemTestCase
 
     fill_in "Acronym", with: @coin.acronym
     fill_in "Description", with: @coin.description
-    fill_in "Url images", with: @coin.url_image
+    fill_in "Url image", with: @coin.url_image
     click_on "Update Coin"
 
     assert_text "Coin was successfully updated"
