@@ -5,9 +5,12 @@ const webpack = require('webpack')
 environment.plugins.prepend('Provide',
     new webpack.ProvidePlugin({
         $: 'jquery/src/jquery',
-        jQuery: 'jquery/src/jquery'
+        jQuery: 'jquery/src/jquery',
+        Notify: 'notify.js/dist/Notify',
+        Popper: ['popper.js', 'default']
     })
 )
+
 
 
 environment.loaders.prepend('erb', erb)
