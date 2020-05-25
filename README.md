@@ -11,7 +11,12 @@ What things you need to install the software and how to install them
 
 ```
 Ruby
-Ruby in Rails
+```
+```
+Ruby
+```
+```
+Ruby
 ```
 
 ### Installing
